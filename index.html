@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitalyears Montessori School</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container-fluid px-3">
+      <div class="row align-items-center">
+        <div class="col-md-7 d-none d-md-block">
+          <div class="marquee-wrap">
+            <span class="marquee-text">🎉 Admissions Open 2025–26 &nbsp;|&nbsp; 🌟 Holistic Montessori Education
+              &nbsp;|&nbsp; 📞 Call: +91 98454 98118 &nbsp;|&nbsp; 🎨 Arts, Music &amp; Movement every day &nbsp;|&nbsp;
+              🏆 Award-winning Montessori School in Bangalore</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 text-md-end">
+          <span class="me-3"><i class="bi bi-telephone-fill me-1"></i>+91 8454 98118
+          </span>
+          <span><i class="bi bi-envelope-fill me-1"></i>vitalyearsmontessori@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="main-nav navbar navbar-expand-lg">
+    <div class="container-fluid px-3">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="images/VitalYears_logo.png" alt="Vitalyears Montessori School" style="max-height: 70px; width: auto;">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <i class="bi bi-list fs-4" style="color:var(--orange)"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why-us">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-link nav-enquire-btn">Enquire Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SLIDER -->
+  <section class="hero-slider" id="home">
+    <button class="slider-arrow prev" onclick="slideGo(-1)"><i class="bi bi-chevron-left"></i></button>
+    <button class="slider-arrow next" onclick="slideGo(1)"><i class="bi bi-chevron-right"></i></button>
+
+    <div class="hero-slide slide-1">
+      <div class="container">
+        <div class="row align-items-center slide-content">
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <div class="slide-badge">🌟 Admissions Open 2025–26</div>
+            <h1>Where <span class="ho">Little Minds</span><br />Grow Big Dreams</h1>
+            <p>Step into the colourful, joyful spaces of Vitalyears Montessori — where curiosity leads and every child
+              shines.</p>
+            <a href="#contact" class="btn-ora">Enquire Now</a>
+            <a href="#programs" class="btn-out-ora">Our Programs</a>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="hero-img-wrap">
+              <img class="hero-main-img"
+                src="https://vitalyearsmontessori.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-28-at-13.43.09.jpg"
+                alt="Kids learning" />
+              <div class="hero-float-card card-tl">
+                <div class="fc-icon">👩‍🏫</div>
+                <div>Expert Teachers</div>
+                <div class="fc-num">15+ Yrs</div>
+              </div>
+              <div class="hero-float-card card-br">
+                <div class="fc-icon">🏆</div>
+                <div>Happy Families</div>
+                <div class="fc-num">500+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide slide-2" style="display:none">
+      <div class="container">
+        <div class="row align-items-center slide-content">
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <div class="slide-badge blue">🎨 Creative Learning</div>
+            <h1>Learning Through <span class="hb">Play &amp;</span><br /><span class="hb">Exploration</span></h1>
+            <p>Our Montessori approach lets children discover, create and grow at their own pace in a beautifully
+              prepared environment.</p>
+            <a href="#gallery" class="btn-ora">See Gallery</a>
+            <a href="#why-us" class="btn-out-ora">Why Choose Us</a>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="hero-img-wrap">
+              <img class="hero-main-img"
+                src="https://vitalyearsmontessori.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-28-at-13.43.16.jpg"
+                alt="Art and craft" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide slide-3" style="display:none">
+      <div class="container">
+        <div class="row align-items-center slide-content">
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <div class="slide-badge green">🌿 Nature &amp; Outdoors</div>
+            <h1>Nurturing <span class="hg">Happy</span><br />&amp; <span class="hg">Confident</span> Kids</h1>
+            <p>From outdoor garden play to sensorial activities — every experience at Vitalyears is designed to spark
+              joy and curiosity.</p>
+            <a href="#contact" class="btn-ora">Book a Visit</a>
+            <a href="#programs" class="btn-out-ora">Explore Programs</a>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="hero-img-wrap">
+              <img class="hero-main-img"
+                src="https://vitalyearsmontessori.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-28-at-13.43.07.jpg"
+                alt="Outdoor play" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-controls">
+      <button class="slider-dot active" onclick="slideSet(0)"></button>
+      <button class="slider-dot" onclick="slideSet(1)"></button>
+      <button class="slider-dot" onclick="slideSet(2)"></button>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="container-fluid">
+      <div class="row g-0">
+        <div class="col-6 col-md-3 reveal">
+          <div class="stat-box">
+            <h3>500+</h3>
+            <p>Happy Families</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 reveal">
+          <div class="stat-box">
+            <h3>15+</h3>
+            <p>Years of Excellence</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 reveal">
+          <div class="stat-box">
+            <h3>18</h3>
+            <p>Expert Educators</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 reveal">
+          <div class="stat-box">
+            <h3>100%</h3>
+            <p>Child-Centred</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs-section" id="programs">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <div class="sec-label">🎓 What We Offer</div>
+        <div class="sec-title">Our <span>Programs</span></div>
+        <p class="sec-desc mx-auto">Age-appropriate Montessori programs designed to nurture every dimension of your
+          child's development.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="prog-card">
+            <div class="prog-card-img" style="background:linear-gradient(135deg,#FFF0D8,#FFD43B)">🍼</div>
+            <div class="prog-card-body">
+              <span class="prog-age-tag" style="background:var(--orange)">Ages 2 – 3 yrs</span>
+              <h5>Playgroup</h5>
+              <p>A warm first step into Montessori life — building motor skills, sensory awareness and emotional confidence through guided play.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="prog-card">
+            <div class="prog-card-img" style="background:linear-gradient(135deg,#CCF2FF,#00AEEF)">🌱</div>
+            <div class="prog-card-body">
+              <span class="prog-age-tag" style="background:var(--blue)">Ages 3 – 4 yrs</span>
+              <h5>Nursery (Montessori Level 1)</h5>
+              <p>Children grow in language and independence through hands-on practical-life activities and meaningful social interaction.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="prog-card">
+            <div class="prog-card-img" style="background:linear-gradient(135deg,#CCFFD8,#39B54A)">📚</div>
+            <div class="prog-card-body">
+              <span class="prog-age-tag" style="background:var(--green)">Ages 4 – 5 yrs</span>
+              <h5>Junior KG (Montessori Level 2)</h5>
+              <p>Carefully designed Montessori materials introduce early math and language concepts, nurturing curiosity and concentration.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="prog-card">
+            <div class="prog-card-img" style="background:linear-gradient(135deg,#F0E8FF,#8B5CF6)">🎨</div>
+            <div class="prog-card-body">
+              <span class="prog-age-tag" style="background:var(--purple)">Ages 5 – 6 yrs</span>
+              <h5>Senior KG (Montessori Level 3)</h5>
+              <p>A school-readiness program that strengthens problem-solving, communication and confidence as children prepare for the next big step.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal">
+          <div class="why-img-side">
+            <img class="why-big-img"
+              src="https://vitalyearsmontessori.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-28-at-13.43.13.jpg"
+              alt="Why Vitalyears" />
+            <div class="why-badge-float">
+              <div style="font-size:1.6rem">🏆</div>
+              <div>Award Winning</div><small>Montessori School</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <div class="sec-label">⭐ Why Choose Us</div>
+          <div class="sec-title">The <span>Vitalyears</span> Difference</div>
+          <p class="sec-desc mb-4">We believe every child is unique. Our approach nurtures individuality, creativity and
+            a lifelong love of learning.</p>
+          <div class="why-point">
+            <div class="why-icon" style="background:#FFF0D8">🧑‍🏫</div>
+            <div>
+              <h6>Trained Montessori Educators</h6>
+              <p>All our teachers are AMI/AMS certified with years of hands-on Montessori experience.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-icon" style="background:#CCF2FF">🌿</div>
+            <div>
+              <h6>Prepared Natural Environment</h6>
+              <p>Beautiful, child-sized spaces with real Montessori materials and access to outdoor gardens.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-icon" style="background:#CCFFD8">🎵</div>
+            <div>
+              <h6>Arts, Music &amp; Movement</h6>
+              <p>Daily creative expression through music, dance, painting and storytelling for holistic growth.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-icon" style="background:#F0E8FF">🤝</div>
+            <div>
+              <h6>Strong Parent Partnership</h6>
+              <p>Regular updates, parent workshops and open communication keep you involved every step.</p>
+            </div>
+          </div>
+          <a href="#contact" class="btn-ora mt-2">Schedule a Visit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="text-center mb-4 reveal">
+        <div class="sec-label">📸 Our Spaces</div>
+        <div class="sec-title">Life at <span>Vitalyears</span></div>
+        <p class="sec-desc mx-auto">Peek inside our joyful classrooms, play areas and creative spaces.</p>
+      </div>
+      <div class="text-center mb-4">
+        <button class="gf-btn active" data-filter="all">🌈 All</button>
+        <button class="gf-btn" data-filter="Outside">🏠 Outside</button>
+        <button class="gf-btn" data-filter="play">🎮 Play Area</button>
+        <button class="gf-btn" data-filter="Activities">🎓 Activities</button>
+      </div>
+      <div class="row g-3" id="galGrid">
+        <!-- 4 Outside -->
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Outside">
+          <div class="gal-card" onclick="openLb(0)"><img src="images/vitalmontassi/school-photo-09.jpg" alt="Gallery 1" />
+            <div class="gal-overlay"><span>Outdoor Gardening</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--blue)">Outside</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Outside">
+          <div class="gal-card" onclick="openLb(1)"><img src="images/vitalmontassi/school-photo-11.jpg" alt="Gallery 2" />
+            <div class="gal-overlay"><span>Yoga Time</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--blue)">Outside</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Outside">
+          <div class="gal-card" onclick="openLb(2)"><img src="images/vitalmontassi/school-photo-16.jpg" alt="Gallery 3" />
+            <div class="gal-overlay"><span>Nature & Garden</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--blue)">Outside</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Outside">
+          <div class="gal-card" onclick="openLb(3)"><img src="images/vitalmontassi/school-photo-17.jpg" alt="Gallery 4" />
+            <div class="gal-overlay"><span>Campus Play Terrace</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--blue)">Outside</div>
+          </div>
+        </div>
+
+        <!-- 4 Play Area -->
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="play">
+          <div class="gal-card" onclick="openLb(4)"><img src="images/vitalmontassi/school-photo-13.jpg" alt="Gallery 5" />
+            <div class="gal-overlay"><span>Ride-on Adventure</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--green)">Play Area</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="play">
+          <div class="gal-card" onclick="openLb(5)"><img src="images/vitalmontassi/school-photo-15.jpg" alt="Gallery 6" />
+            <div class="gal-overlay"><span>Indoor Play Zone</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--green)">Play Area</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="play">
+          <div class="gal-card" onclick="openLb(6)"><img src="images/vitalmontassi/school-photo-18.jpg" alt="Gallery 7" />
+            <div class="gal-overlay"><span>Playhouse Fun</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--green)">Play Area</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="play">
+          <div class="gal-card" onclick="openLb(7)"><img src="images/vitalmontassi/school-photo-21.jpg" alt="Gallery 8" />
+            <div class="gal-overlay"><span>Ball Pit Play</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--green)">Play Area</div>
+          </div>
+        </div>
+
+        <!-- 4 Activities -->
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Activities">
+          <div class="gal-card" onclick="openLb(8)"><img src="images/vitalmontassi/school-photo-01.jpg" alt="Gallery 9" />
+            <div class="gal-overlay"><span>Math Exploration</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--red)">Activities</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Activities">
+          <div class="gal-card" onclick="openLb(9)"><img src="images/vitalmontassi/school-photo-05.jpg" alt="Gallery 10" />
+            <div class="gal-overlay"><span>Churning Activity</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--red)">Activities</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Activities">
+          <div class="gal-card" onclick="openLb(10)"><img src="images/vitalmontassi/school-photo-19.jpg" alt="Gallery 11" />
+            <div class="gal-overlay"><span>Diwali Celebration</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--red)">Activities</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item reveal" data-cat="Activities">
+          <div class="gal-card" onclick="openLb(11)"><img src="images/vitalmontassi/school-photo-24.jpg" alt="Gallery 12" />
+            <div class="gal-overlay"><span>Gustatory Sense</span></div>
+            <div class="gal-zoom"><i class="bi bi-zoom-in"></i></div>
+            <div class="cat-pill" style="background:var(--red)">Activities</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center mt-5">
+        <a href="gallery.html" class="btn btn-primary rounded-pill px-5 py-3 fw-bold">View Full Gallery (26
+          Photos) <i class="bi bi-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi-section">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <div class="sec-label">💬 Parent Stories</div>
+        <div class="sec-title">What <span>Families</span> Say</div>
+        <p class="sec-desc mx-auto">Real stories from parents whose children have blossomed at Vitalyears.</p>
+      </div>
+      <div class="testi-container reveal">
+        <div class="swiper testi-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testi-card">
+                <div class="testi-quote">"</div>
+                <div class="testi-stars">★★★★★</div>
+                <p>Vitalyears has transformed my daughter. She comes home every day excited to share what she learned.
+                  The teachers are incredibly caring and skilled.</p>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="testi-avatar">👩</div>
+                  <div>
+                    <div class="testi-name">Priya Sharma</div>
+                    <div class="testi-role">Parent of Aanya, Age 4</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi-card">
+                <div class="testi-quote">"</div>
+                <div class="testi-stars">★★★★★</div>
+                <p>The Montessori method here is authentic. My son has developed incredible concentration and
+                  independence. Best decision we ever made for his early education.</p>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="testi-avatar">👨</div>
+                  <div>
+                    <div class="testi-name">Rajesh Kumar</div>
+                    <div class="testi-role">Parent of Arjun, Age 5</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi-card">
+                <div class="testi-quote">"</div>
+                <div class="testi-stars">★★★★★</div>
+                <p>The environment is so warm and nurturing. My twins love going to school every single day. I can see
+                  the joy on their faces and confidence in their actions.</p>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="testi-avatar">👩</div>
+                  <div>
+                    <div class="testi-name">Meena Iyer</div>
+                    <div class="testi-role">Parent of Twins, Age 3</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi-card">
+                <div class="testi-quote">"</div>
+                <div class="testi-stars">★★★★★</div>
+                <p>Excellent school with highly dedicated teachers. My child's social skills have improved dramatically
+                  since joining Vitalyears.</p>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="testi-avatar">👨</div>
+                  <div>
+                    <div class="testi-name">Suresh Raina</div>
+                    <div class="testi-role">Parent of Kabir, Age 2.5</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi-card">
+                <div class="testi-quote">"</div>
+                <div class="testi-stars">★★★★★</div>
+                <p>The best Montessori in the area. The curriculum is well-structured and the staff is very supportive
+                  and communicative.</p>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="testi-avatar">👩</div>
+                  <div>
+                    <div class="testi-name">Anitha S.</div>
+                    <div class="testi-role">Parent of Diya, Age 4.5</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FIND -->
+  <section class="find-section" id="contact">
+    <div class="container position-relative">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 reveal">
+          <div class="sec-label">📍 Get In Touch</div>
+          <div class="sec-title">Visit <span>Vitalyears</span></div>
+          <p class="sec-desc mb-4">We'd love to show you around! Schedule a visit and we'll get back within 24 hours.
+          </p>
+          <a href="https://maps.app.goo.gl/13mcEo13b1HkJyZq6"
+            target="_blank" class="find-info-item text-decoration-none text-dark">
+            <div class="find-info-icon">📍</div>
+            <div>
+              <h6>Branch 1 Location</h6>
+              <p class="mb-0">sarjapur road R1, Owners Court West Layout Road Junnasandra, Habitat Celeste, Eastwood
+                Twp, Kasavanahalli, Karnataka 560035</p>
+            </div>
+          </a>
+          <a href="https://maps.app.goo.gl/mZodFPknDMLpTNLFA"
+            target="_blank" class="find-info-item text-decoration-none text-dark">
+            <div class="find-info-icon">📍</div>
+            <div>
+              <h6>Branch 2 Location</h6>
+              <p class="mb-0">Site No. 337 50 feet road, KPC Layout, Kasavanahalli, Karnataka 560035</p>
+            </div>
+          </a>
+          <a href="tel:+919845498118" class="find-info-item text-decoration-none text-dark">
+            <div class="find-info-icon">📞</div>
+            <div>
+              <h6>Call Us</h6>
+              <p class="mb-0">+91 98454 98118 | Mon–Sat, 8am–6pm</p>
+            </div>
+          </a>
+          <a href="mailto:vitalyearsmontessori@gmail.com" class="find-info-item text-decoration-none text-dark">
+            <div class="find-info-icon">📧</div>
+            <div>
+              <h6>Email Us</h6>
+              <p class="mb-0">vitalyearsmontessori@gmail.com</p>
+            </div>
+          </a>
+          <div class="find-info-item">
+            <div class="find-info-icon">🕐</div>
+            <div>
+              <h6>School Hours</h6>
+              <p>Monday – Friday: 8:30am – 3:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <div class="find-form-card">
+            <h5>📝 Enquire Now — It's Free!</h5>
+            <form id="enquiryForm">
+              <input type="text" name="Parent Name" id="parent_name" class="form-control"
+                placeholder="Parent's Full Name *" required />
+              <input type="tel" name="Mobile Number" id="mobile" class="form-control" placeholder="Mobile Number *"
+                required />
+              <input type="email" name="Email Address" id="email" class="form-control" placeholder="Email Address" />
+              <input type="text" name="Child Name" id="child_name" class="form-control" placeholder="Child's Name *"
+                required />
+              <select name="Age Group" id="age_group" class="form-select">
+                <option value="">Child's Age Group</option>
+                <option value="2-3 years (Playgroup)">2 – 3 years (Playgroup)</option>
+                <option value="3-4 years (Nursery)">3 – 4 years (Nursery)</option>
+                <option value="4-5 years (Junior KG)">4 – 5 years (Junior KG)</option>
+                <option value="5-6 years (Senior KG)">5 – 6 years (Senior KG)</option>
+              </select>
+              <input type="text" name="City/Area" id="city" class="form-control" placeholder="Your City / Area" />
+              <button type="submit" class="find-submit" id="submitBtn"
+                style="background: #25D366; border-color: #25D366;">
+                <i class="bi bi-whatsapp me-2"></i>Enquire on WhatsApp →
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="news-section" id="news">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <div class="sec-label">📰 Stay Updated</div>
+        <div class="sec-title">News &amp; <span>Events</span></div>
+        <p class="sec-desc mx-auto">The latest happenings, workshops and celebrations at Vitalyears.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="news-card">
+            <div class="news-img" style="background:linear-gradient(135deg,#FFE8CC,#F7941D)">🎉<div class="news-date">
+                JAN<br />28<br />2026</div>
+            </div>
+            <div class="news-body"><span class="news-tag">Event</span>
+              <h6>Annual Day Celebration 2026</h6>
+              <p>A spectacular evening of music, dance and talent showcased by our little stars!</p><a href="#"
+                class="news-read">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="news-card">
+            <div class="news-img" style="background:linear-gradient(135deg,#CCF2FF,#00AEEF)">📖<div class="news-date">
+                FEB<br />10<br />2026</div>
+            </div>
+            <div class="news-body"><span class="news-tag">Workshop</span>
+              <h6>Parent Workshop: The Montessori Way at Home</h6>
+              <p>Learn how to extend Montessori principles into your home and daily routines.</p><a href="#"
+                class="news-read">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="news-card">
+            <div class="news-img" style="background:linear-gradient(135deg,#CCFFD8,#39B54A)">🌿<div class="news-date">
+                MAR<br />01<br />2026</div>
+            </div>
+            <div class="news-body"><span class="news-tag">Admissions</span>
+              <h6>Admissions Open for 2025–26</h6>
+              <p>Limited seats available across all age groups. Book your visit today!</p><a href="#contact"
+                class="news-read">Enquire Now <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <img src="images/VitalYears_logo.png" alt="Vitalyears Montessori"
+              style="max-height: 50px; width: auto; margin-bottom: 10px; background: rgba(255,255,255,0.1); padding: 5px; border-radius: 8px;">
+          </div>
+          <p class="footer-desc">Nurturing curious, confident and compassionate children through authentic Montessori
+            education in Bangalore.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/VitalYearsMontessori?mibextid=rS40aB7S9Ucbxw6v" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/919845498118" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-heading">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="bi bi-chevron-right"></i>Home</a></li>
+            <li><a href="#programs"><i class="bi bi-chevron-right"></i>Programs</a></li>
+            <li><a href="#why-us"><i class="bi bi-chevron-right"></i>About Us</a></li>
+            <li><a href="#gallery"><i class="bi bi-chevron-right"></i>Gallery</a></li>
+            <li><a href="#news"><i class="bi bi-chevron-right"></i>News</a></li>
+            <li><a href="#contact"><i class="bi bi-chevron-right"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-heading">Programs</div>
+          <ul class="footer-links">
+            <li><a href="#programs"><i class="bi bi-chevron-right"></i>Playgroup</a></li>
+            <li><a href="#programs"><i class="bi bi-chevron-right"></i>Nursery</a></li>
+            <li><a href="#programs"><i class="bi bi-chevron-right"></i>Junior KG</a></li>
+            <li><a href="#programs"><i class="bi bi-chevron-right"></i>Senior KG</a></li>
+            <li><a href="#contact"><i class="bi bi-chevron-right"></i>Admissions</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-heading">Contact Us</div>
+          <div class="footer-contact-item"><i class="bi bi-geo-alt-fill"></i><a
+              href="https://maps.app.goo.gl/13mcEo13b1HkJyZq6"
+              target="_blank" class="text-reset text-decoration-none">sarjapur road R1, Owners Court West Layout Road
+              Junnasandra, Habitat Celeste, Eastwood Twp, Kasavanahalli, Karnataka 560035</a></div>
+          <div class="footer-contact-item"><i class="bi bi-geo-alt-fill"></i><a
+              href="https://maps.app.goo.gl/mZodFPknDMLpTNLFA"
+              target="_blank" class="text-reset text-decoration-none">Site No. 337 50 feet road, KPC Layout,
+              Kasavanahalli, Karnataka 560035</a></div>
+          <div class="footer-contact-item"><i class="bi bi-telephone-fill"></i><a href="tel:+919845498118"
+              class="text-reset text-decoration-none">+91 98454 98118</a></div>
+          <div class="footer-contact-item"><i class="bi bi-envelope-fill"></i><a
+              href="mailto:vitalyearsmontessori@gmail.com"
+              class="text-reset text-decoration-none">vitalyearsmontessori@gmail.com</a></div>
+          <div class="footer-contact-item"><i class="bi bi-clock-fill"></i><span>Mon – Fri: 8:30am – 3:30pm</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© 2020 Vitalyears Montessori School. All rights reserved. | Made with ❤️ for little
+        learners.</div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lb-overlay" id="lb" onclick="closeLbOut(event)">
+    <div class="lb-img-wrap">
+      <button class="lb-close" onclick="closeLb()"><i class="bi bi-x"></i></button>
+      <img id="lbImg" src="" alt="" />
+    </div>
+    <div class="lb-cap" id="lbCap"></div>
+    <div class="lb-nav"><button onclick="lbPrev()"><i class="bi bi-chevron-left"></i></button><button
+        onclick="lbNext()"><i class="bi bi-chevron-right"></i></button></div>
+  </div>
+
+  <button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    /* SCROLL REVEAL */
+    (function () {
+      const groups = new Map();
+      document.querySelectorAll('.reveal').forEach(el => {
+        const parent = el.parentElement;
+        if (!groups.has(parent)) groups.set(parent, []);
+        const idx = groups.get(parent).length;
+        el.style.transitionDelay = (idx % 4) * 0.12 + 's';
+        groups.get(parent).push(el);
+      });
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal-show');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+      document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+    })();
+
+    /* STAT COUNTERS */
+    (function () {
+      const statEls = document.querySelectorAll('.stat-box h3');
+      let counted = false;
+      function animateCount(el) {
+        const text = el.textContent.trim();
+        const match = text.match(/^(\d+)(.*)$/);
+        if (!match) return;
+        const target = parseInt(match[1], 10), suffix = match[2];
+        const dur = 1200;
+        const start = performance.now();
+        function tick(now) {
+          const p = Math.min((now - start) / dur, 1);
+          el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))) + suffix;
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+      const statIo = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !counted) {
+            counted = true;
+            statEls.forEach(animateCount);
+            statIo.disconnect();
+          }
+        });
+      }, { threshold: 0.4 });
+      const statsBar = document.querySelector('.stats-bar');
+      if (statsBar) statIo.observe(statsBar);
+    })();
+
+    /* HERO SLIDER */
+    const slides = document.querySelectorAll('.hero-slide'), dots = document.querySelectorAll('.slider-dot');
+    let cur = 0, timer;
+    function slideSet(n) { slides[cur].style.display = 'none'; dots[cur].classList.remove('active'); cur = (n + slides.length) % slides.length; slides[cur].style.display = ''; dots[cur].classList.add('active'); resetTimer(); }
+    function slideGo(d) { slideSet(cur + d); }
+    function resetTimer() { clearInterval(timer); timer = setInterval(() => slideGo(1), 5000); }
+    resetTimer();
+
+    /* GALLERY FILTER */
+    document.querySelectorAll('.gf-btn').forEach(btn => {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.gf-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        const f = this.dataset.filter;
+        document.querySelectorAll('.gal-item').forEach(item => item.classList.toggle('hidden', f !== 'all' && item.dataset.cat !== f));
+      });
+    });
+
+    /* LIGHTBOX */
+    const imgs = [
+      { src: 'images/vitalmontassi/school-photo-09.jpg', cap: '🏠 Outside – Outdoor Gardening' },
+      { src: 'images/vitalmontassi/school-photo-11.jpg', cap: '🏠 Outside – Yoga Time' },
+      { src: 'images/vitalmontassi/school-photo-16.jpg', cap: '🏠 Outside – Nature & Garden' },
+      { src: 'images/vitalmontassi/school-photo-17.jpg', cap: '🏠 Outside – Campus Play Terrace' },
+      { src: 'images/vitalmontassi/school-photo-13.jpg', cap: '🎮 Play Area – Ride-on Adventure' },
+      { src: 'images/vitalmontassi/school-photo-15.jpg', cap: '🎮 Play Area – Indoor Play Zone' },
+      { src: 'images/vitalmontassi/school-photo-18.jpg', cap: '🎮 Play Area – Playhouse Fun' },
+      { src: 'images/vitalmontassi/school-photo-21.jpg', cap: '🎮 Play Area – Ball Pit Play' },
+      { src: 'images/vitalmontassi/school-photo-01.jpg', cap: '🎓 Activities – Math Exploration' },
+      { src: 'images/vitalmontassi/school-photo-05.jpg', cap: '🎓 Activities – Churning Activity' },
+      { src: 'images/vitalmontassi/school-photo-19.jpg', cap: '🎓 Activities – Diwali Celebration' },
+      { src: 'images/vitalmontassi/school-photo-24.jpg', cap: '🎓 Activities – Gustatory Sense' },
+      { src: 'images/vitalmontassi/school-photo-02.jpg', cap: '🎓 Activities – Cooking Fun' },
+      { src: 'images/vitalmontassi/school-photo-03.jpg', cap: '🎓 Activities – Hands-on Learning' },
+      { src: 'images/vitalmontassi/school-photo-04.jpg', cap: '🎓 Activities – Focused Work' },
+      { src: 'images/vitalmontassi/school-photo-06.jpg', cap: '🎓 Activities – Sensory Exploration' },
+      { src: 'images/vitalmontassi/school-photo-07.jpg', cap: '🎓 Activities – Number Work' },
+      { src: 'images/vitalmontassi/school-photo-08.jpg', cap: '🏠 Outside – Campus Facilities' },
+      { src: 'images/vitalmontassi/school-photo-10.jpg', cap: '🏠 Outside – Little Gardeners' },
+      { src: 'images/vitalmontassi/school-photo-12.jpg', cap: '🏠 Outside – Learning Spaces' },
+      { src: 'images/vitalmontassi/school-photo-14.jpg', cap: '🏠 Outside – Welcome Back' },
+      { src: 'images/vitalmontassi/school-photo-20.jpg', cap: '🎓 Activities – Ganesh Chaturthi' },
+      { src: 'images/vitalmontassi/school-photo-22.jpg', cap: '🎮 Play Area – Healthy Choices Game' },
+      { src: 'images/vitalmontassi/school-photo-23.jpg', cap: '🎓 Activities – Food Sorting Fun' },
+      { src: 'images/vitalmontassi/school-photo-25.jpg', cap: '🎮 Play Area – Building Blocks' },
+      { src: 'images/vitalmontassi/school-photo-26.jpg', cap: '🏠 Outside – Montessori Classroom' }
+    ];
+    let lbCur = 0;
+    function openLb(i) { lbCur = i; document.getElementById('lbImg').src = imgs[i].src; document.getElementById('lbCap').textContent = imgs[i].cap; document.getElementById('lb').classList.add('open'); document.body.style.overflow = 'hidden'; }
+    function closeLb() { document.getElementById('lb').classList.remove('open'); document.body.style.overflow = ''; }
+    function closeLbOut(e) { if (e.target === document.getElementById('lb')) closeLb(); }
+    function lbPrev() { lbCur = (lbCur - 1 + imgs.length) % imgs.length; openLb(lbCur); }
+    function lbNext() { lbCur = (lbCur + 1) % imgs.length; openLb(lbCur); }
+    document.addEventListener('keydown', e => { if (!document.getElementById('lb').classList.contains('open')) return; if (e.key === 'ArrowLeft') lbPrev(); if (e.key === 'ArrowRight') lbNext(); if (e.key === 'Escape') closeLb(); });
+
+    /* SCROLL TOP */
+    window.addEventListener('scroll', () => document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 300));
+
+    /* TESTIMONIAL SWIPER */
+    const swiperOptions = {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      speed: 800,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    };
+
+    // Initialize Swiper
+    const testiSwiper = new Swiper(".testi-swiper", swiperOptions);
+
+    /* ENQUIRY FORM SUBMISSION (FormSubmit.co) */
+    document.getElementById('enquiryForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const formData = new FormData(this);
+      const data = Object.fromEntries(formData.entries());
+
+      const whatsappNumber = "919845498118";
+      let message = "Hi Vitalyears Montessori, I have a new enquiry from your website:\n\n";
+      message += "*Parent Name:* " + data['Parent Name'] + "\n";
+      message += "*Mobile:* " + data['Mobile Number'] + "\n";
+      message += "*Email:* " + (data['Email Address'] || 'N/A') + "\n";
+      message += "*Child Name:* " + data['Child Name'] + "\n";
+      message += "*Age Group:* " + (data['Age Group'] || 'N/A') + "\n";
+      message += "*City/Area:* " + (data['City/Area'] || 'N/A') + "\n";
+
+      const whatsappUrl = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message);
+      window.open(whatsappUrl, '_blank');
+
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>
